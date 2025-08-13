@@ -1,29 +1,28 @@
 # colordetection
 Color Detection with Voice Feedback 🎨🔊
 A real-time color detection system using OpenCV that identifies the color of objects from a live camera feed. The detected color’s name is announced through voice feedback for an interactive experience.
-"C:\Users\vsspa\OneDrive\Pictures\Screenshots\Screenshot 2025-08-13 230720.png"
-Features:
+<img width="1283" height="799" alt="image" src="https://github.com/user-attachments/assets/35b0301c-d5a6-4ba6-894c-f2f0af11aa81" />
 
-Real-time color recognition using HSV and RGB values
+## 📌 Features
+- Real-time color recognition using HSV and RGB values
+- Voice feedback announcing detected color names
+- Predefined color dataset for high accuracy
+- Works under varied lighting and object surfaces
+- Simple and easy-to-use interface
 
-Accurate color name mapping with a predefined dataset
+---
 
-Voice output for detected colors using text-to-speech
+## 🛠️ Tech Stack
+- **Python** – Core programming language
+- **OpenCV** – Image processing & camera feed
+- **Pyttsx3** – Text-to-speech engine
+- **NumPy** – Numerical processing
 
-Supports dynamic lighting and varied object surfaces
+---
 
-Tech Stack:
-
-Python (core logic)
-
-OpenCV (image processing)
-
-Pyttsx3 (text-to-speech)
-
-Applications:
-
-Assistive tool for visually impaired individuals
-
-Interactive color learning for kids
-
-Object color classification in robotics
+## 📂 Project Structure
+color-detection/
+│-- color_detection.py # Main program
+│-- colors.csv # Color dataset
+│-- requirements.txt # Dependencies
+└-- README.md # Project documentation
